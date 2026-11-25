@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Enzo · Web designer e desenvolvedor",
+    "description": "Eu desenho e construo sites que causam a impressão certa e fazem o cliente chamar você no WhatsApp. Sites institucionais, landing pages e manutenção."
+  },
+  "nav": {
+    "skip": "Pular para o conteúdo",
+    "label": "Principal",
+    "homeLabel": "Enzo, voltar ao início",
+    "home": "Início",
+    "projects": "Projetos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "quote": "Orçamento",
+    "langLabel": "Mudar idioma para inglês",
+    "menu": "Abrir menu",
+    "menuClose": "Fechar menu"
+  },
+  "cta": {
+    "whatsapp": "Chamar no WhatsApp",
+    "projects": "Ver projetos"
+  },
+  "hero": {
+    "badge": "Agenda aberta",
+    "title": "Seu site é seu primeiro <em>aperto de mão</em>.",
+    "subtitle": "Eu desenho e construo sites que causam a impressão certa e fazem o cliente chamar você no WhatsApp.",
+    "note": "Design e código feitos pela mesma pessoa, do rascunho ao site no ar.",
+    "artPiece": "peça solta · 18°"
+  },
+  "services": {
+    "eyebrow": "Serviços",
+    "title": "Três jeitos de <em>começar</em>.",
+    "intro": "Todo projeto começa entendendo o seu negócio. O formato vem depois.",
+    "popular": "Mais procurado",
+    "s1": {
+      "title": "Sites institucionais",
+      "text": "O endereço oficial da sua marca: quem você é, o que oferece e como falar com você. Várias páginas, organizadas para o cliente achar o que procura.",
+      "i1": "Design feito do zero",
+      "i2": "Funciona bem no celular",
+      "i3": "WhatsApp a um toque",
+      "i4": "Base pronta para o Google"
+    },
+    "s2": {
+      "title": "Landing pages",
+      "text": "Uma página só, com um objetivo só: fazer o visitante agir. Boa para lançar um produto, um serviço ou uma campanha.",
+      "i1": "Texto e ordem pensados para converter",
+      "i2": "Carrega rápido",
+      "i3": "Uma chamada clara para o WhatsApp"
+    },
+    "s3": {
+      "title": "Manutenção",
+      "text": "Seu site já existe, mas está parado, lento ou desatualizado? Eu ajusto, corrijo e mantenho tudo funcionando.",
+      "i1": "Troca de textos e imagens",
+      "i2": "Correções e melhorias",
+      "i3": "Ajustes para celular"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projetos",
+    "title": "Coisas que eu <em>construí</em>.",
+    "intro": "Uma amostra do meu jeito de pensar e de construir.",
+    "tagsLabel": "Etiquetas",
+    "p1": {
+      "kind": "Site institucional",
+      "title": "Projeto 01",
+      "text": "Descrição curta do projeto: para quem é, qual era o desafio e o que o site resolveu.",
+      "alt": "Imagem provisória do Projeto 01"
+    },
+    "p2": {
+      "kind": "Landing page",
+      "title": "Projeto 02",
+      "text": "Descrição curta do projeto: para quem é, qual era o desafio e o que o site resolveu.",
+      "alt": "Imagem provisória do Projeto 02"
+    },
+    "p3": {
+      "kind": "Estudo de conceito",
+      "title": "Projeto 03",
+      "text": "Descrição curta do projeto: para quem é, qual era o desafio e o que o site resolveu.",
+      "alt": "Imagem provisória do Projeto 03"
+    }
+  },
+  "tags": {
+    "design": "Design",
+    "dev": "Desenvolvimento",
+    "responsive": "Responsivo",
+    "launch": "Lançamento",
+    "concept": "Conceito"
+  },
+  "process": {
+    "eyebrow": "Como trabalho",
+    "title": "Pensar antes de <em>desenhar</em>.",
+    "intro": "Um processo curto e claro. Você sabe o que acontece em cada etapa e nunca fica sem resposta.",
+    "s1": {
+      "title": "Conversa",
+      "text": "A gente fala sobre o seu negócio, o seu cliente e o que o site precisa resolver. Daí sai um plano e um orçamento."
+    },
+    "s2": {
+      "title": "Design",
+      "text": "Eu desenho as telas e mostro para você antes de qualquer código. Ajustamos juntos até ficar certo."
+    },
+    "s3": {
+      "title": "Desenvolvimento",
+      "text": "Transformo o design em um site rápido, que funciona bem no celular e no computador."
+    },
+    "s4": {
+      "title": "No ar",
+      "text": "Publico o site, confiro cada detalhe e mostro como tudo funciona. Depois disso, sigo por perto."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos <em>conversar</em>?",
+    "text": "Me conta o que você tem em mente, mesmo que a ideia ainda esteja crua. A conversa é sem compromisso.",
+    "or": "Ou preencha o formulário: a mensagem chega pronta no WhatsApp."
+  },
+  "form": {
+    "name": "Seu nome",
+    "namePh": "Como posso te chamar?",
+    "whatsapp": "Seu WhatsApp",
+    "whatsappPh": "(00) 00000-0000",
+    "optional": "(opcional)",
+    "message": "Sua mensagem",
+    "messagePh": "Quero um site para…",
+    "submit": "Enviar pelo WhatsApp",
+    "note": "O formulário só abre o WhatsApp com a sua mensagem. Nada fica salvo aqui.",
+    "sent": "Abrimos o WhatsApp com a sua mensagem. É só tocar em enviar.",
+    "errors": {
+      "name": "Escreva seu nome.",
+      "whatsapp": "Confira o número: use DDD + número.",
+      "message": "Escreva sua mensagem.",
+      "summary": "Faltou alguma coisa. Confira os campos marcados."
+    }
+  },
+  "wa": {
+    "default": "Olá, Enzo! Vi seu site e quero conversar sobre um projeto.",
+    "quote": "Olá, Enzo! Quero pedir um orçamento de site.",
+    "form": "Olá, Enzo! Sou {nome}.\n\n{mensagem}",
+    "formPhone": "\n\nMeu WhatsApp: {whatsapp}"
+  },
+  "footer": {
+    "credit": "Feito por Enzo Morais · 2026",
+    "whatsapp": "WhatsApp",
+    "soon": "em breve",
+    "top": "Voltar ao topo"
+  }
+}

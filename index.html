@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enzo · Web designer e desenvolvedor</title>
+  <meta name="description" content="Eu desenho e construo sites que causam a impressão certa e fazem o cliente chamar você no WhatsApp. Sites institucionais, landing pages e manutenção.">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Open Graph (PT). Troque as URLs relativas pelo domínio completo quando ele existir. -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name" content="Enzo">
+  <meta property="og:title" content="Enzo · Seu site é seu primeiro aperto de mão.">
+  <meta property="og:description" content="Eu desenho e construo sites que causam a impressão certa e fazem o cliente chamar você no WhatsApp.">
+  <meta property="og:image" content="assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo do Enzo e o título: Seu site é seu primeiro aperto de mão.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="assets/img/favicon-16.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=Newsreader:ital,opsz,wght@1,6..72,400..500&family=Unbounded:wght@500&display=swap">
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Marca o JS como ativo. Se o main.js não carregar em 3s, mostra tudo mesmo assim. -->
+  <script>
+    document.documentElement.classList.add('js');
+    setTimeout(function () {
+      if (!window.__enzoReady) document.documentElement.classList.add('reveal-all');
+    }, 3000);
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo" data-i18n="nav.skip">Pular para o conteúdo</a>
+
+  <!-- ============ MENU ============ -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Enzo, voltar ao início" data-i18n-attr="aria-label:nav.homeLabel">
+        <img src="assets/img/logo-horizontal.svg" alt="Enzo" width="130" height="36">
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label" data-nav>
+        <ul class="nav-list">
+          <li><a href="#inicio" data-i18n="nav.home">Início</a></li>
+          <li><a href="#projetos" data-i18n="nav.projects">Projetos</a></li>
+          <li><a href="#servicos" data-i18n="nav.services">Serviços</a></li>
+          <li><a href="#contato" data-i18n="nav.contact">Contato</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta-mobile" href="#contato" data-wa="quote" data-i18n="nav.quote">Orçamento</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang" type="button" data-lang-toggle aria-label="Mudar idioma para inglês" data-i18n-attr="aria-label:nav.langLabel">
+          <span data-lang="pt">PT</span><span class="lang-sep" aria-hidden="true">/</span><span data-lang="en">EN</span>
+        </button>
+        <a class="btn btn-primary btn-sm header-cta" href="#contato" data-wa="quote" data-magnetic>
+          <span class="btn-label" data-i18n="nav.quote">Orçamento</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" data-menu-toggle>
+          <span class="menu-toggle-box" aria-hidden="true"><span></span><span></span></span>
+          <span class="sr-only" data-i18n="nav.menu">Abrir menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="badge badge-green hero-in" style="--d:0">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span data-i18n="hero.badge">Agenda aberta</span>
+          </p>
+          <h1 class="display hero-title hero-in" id="hero-title" style="--d:1" data-i18n-html="hero.title">Seu site é seu primeiro <em>aperto de mão</em>.</h1>
+          <p class="lead hero-in" style="--d:2" data-i18n="hero.subtitle">Eu desenho e construo sites que causam a impressão certa e fazem o cliente chamar você no WhatsApp.</p>
+          <div class="actions hero-in" style="--d:3">
+            <a class="btn btn-primary btn-lg" href="#contato" data-wa="default" data-magnetic>
+              <span class="btn-label">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18.5V7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H8.5L4 20.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 10.5h6M9 13.5h3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                <span data-i18n="cta.whatsapp">Chamar no WhatsApp</span>
+              </span>
+            </a>
+            <a class="btn btn-outline btn-lg" href="#projetos" data-magnetic>
+              <span class="btn-label" data-i18n="cta.projects">Ver projetos</span>
+            </a>
+          </div>
+          <p class="hero-note hero-in" style="--d:4" data-i18n="hero.note">Design e código feitos pela mesma pessoa, do rascunho ao site no ar.</p>
+        </div>
+
+        <figure class="hero-art" aria-hidden="true">
+          <div class="art-frame">
+            <span class="art-corner art-corner--tl"></span>
+            <span class="art-corner art-corner--tr"></span>
+            <span class="art-corner art-corner--bl"></span>
+            <span class="art-corner art-corner--br"></span>
+            <svg class="art-logo" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#141823">
+                <rect x="12" y="12" width="28" height="28" rx="9"/><rect x="46" y="12" width="28" height="28" rx="9"/><rect x="80" y="12" width="28" height="28" rx="9"/>
+                <rect x="12" y="46" width="28" height="28" rx="9"/><rect x="46" y="46" width="28" height="28" rx="9"/>
+                <rect x="12" y="80" width="28" height="28" rx="9"/><rect x="46" y="80" width="28" height="28" rx="9"/><rect x="80" y="80" width="28" height="28" rx="9"/>
+              </g>
+              <rect class="art-slot" x="80" y="46" width="28" height="28" rx="9"/>
+              <rect class="art-piece" x="80" y="46" width="28" height="28" rx="9" fill="#FF5A2A" transform="translate(7 -3) rotate(18 94 60)"/>
+            </svg>
+          </div>
+          <figcaption class="art-meta">
+            <span>3 × 3</span>
+            <span class="art-meta-piece" data-i18n="hero.artPiece">peça solta · 18°</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="section section-alt" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-num">01</span><span data-i18n="services.eyebrow">Serviços</span></p>
+          <div class="section-head-main">
+            <h2 class="display section-title" id="servicos-title" data-i18n-html="services.title">Três jeitos de <em>começar</em>.</h2>
+            <p class="section-intro" data-i18n="services.intro">Todo projeto começa entendendo o seu negócio. O formato vem depois.</p>
+          </div>
+        </header>
+
+        <div class="cards cards-3">
+          <article class="card service" data-reveal style="--d:0">
+            <div class="service-top">
+              <span class="service-icon service-icon--accent" aria-hidden="true">
+                <svg viewBox="0 0 40 40"><rect x="5" y="5" width="13" height="13" rx="4"/><rect x="22" y="5" width="13" height="13" rx="4"/><rect x="5" y="22" width="13" height="13" rx="4"/><rect x="22" y="22" width="13" height="13" rx="4"/></svg>
+              </span>
+              <span class="tag tag-yellow" data-i18n="services.popular">Mais procurado</span>
+            </div>
+            <h3 class="card-title" data-i18n="services.s1.title">Sites institucionais</h3>
+            <p class="card-text" data-i18n="services.s1.text">O endereço oficial da sua marca: quem você é, o que oferece e como falar com você. Várias páginas, organizadas para o cliente achar o que procura.</p>
+            <ul class="checklist">
+              <li data-i18n="services.s1.i1">Design feito do zero</li>
+              <li data-i18n="services.s1.i2">Funciona bem no celular</li>
+              <li data-i18n="services.s1.i3">WhatsApp a um toque</li>
+              <li data-i18n="services.s1.i4">Base pronta para o Google</li>
+            </ul>
+          </article>
+
+          <article class="card service" data-reveal style="--d:1">
+            <div class="service-top">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40"><rect x="5" y="5" width="30" height="9" rx="3"/><rect x="5" y="17" width="30" height="9" rx="3"/><rect x="13" y="29" width="14" height="7" rx="3.5"/></svg>
+              </span>
+            </div>
+            <h3 class="card-title" data-i18n="services.s2.title">Landing pages</h3>
+            <p class="card-text" data-i18n="services.s2.text">Uma página só, com um objetivo só: fazer o visitante agir. Boa para lançar um produto, um serviço ou uma campanha.</p>
+            <ul class="checklist">
+              <li data-i18n="services.s2.i1">Texto e ordem pensados para converter</li>
+              <li data-i18n="services.s2.i2">Carrega rápido</li>
+              <li data-i18n="services.s2.i3">Uma chamada clara para o WhatsApp</li>
+            </ul>
+          </article>
+
+          <article class="card service" data-reveal style="--d:2">
+            <div class="service-top">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40"><rect x="5" y="5" width="13" height="13" rx="4"/><rect x="5" y="22" width="13" height="13" rx="4"/><rect x="22" y="22" width="13" height="13" rx="4"/><rect x="22" y="5" width="13" height="13" rx="4" transform="translate(2 -1) rotate(18 28.5 11.5)"/></svg>
+              </span>
+            </div>
+            <h3 class="card-title" data-i18n="services.s3.title">Manutenção</h3>
+            <p class="card-text" data-i18n="services.s3.text">Seu site já existe, mas está parado, lento ou desatualizado? Eu ajusto, corrijo e mantenho tudo funcionando.</p>
+            <ul class="checklist">
+              <li data-i18n="services.s3.i1">Troca de textos e imagens</li>
+              <li data-i18n="services.s3.i2">Correções e melhorias</li>
+              <li data-i18n="services.s3.i3">Ajustes para celular</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJETOS ============ -->
+    <section class="section" id="projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-num">02</span><span data-i18n="projects.eyebrow">Projetos</span></p>
+          <div class="section-head-main">
+            <h2 class="display section-title" id="projetos-title" data-i18n-html="projects.title">Coisas que eu <em>construí</em>.</h2>
+            <p class="section-intro" data-i18n="projects.intro">Uma amostra do meu jeito de pensar e de construir.</p>
+          </div>
+        </header>
+
+        <div class="cards cards-3">
+          <!-- PLACEHOLDER: troque imagem, nome, descrição e etiquetas -->
+          <article class="card project" data-reveal style="--d:0">
+            <div class="project-media">
+              <img src="assets/img/projeto-01.png" width="1200" height="900" loading="lazy" alt="Imagem provisória do Projeto 01" data-i18n-attr="alt:projects.p1.alt">
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span>01</span><span data-i18n="projects.p1.kind">Site institucional</span></p>
+              <h3 class="card-title" data-i18n="projects.p1.title">Projeto 01</h3>
+              <p class="card-text" data-i18n="projects.p1.text">Descrição curta do projeto: para quem é, qual era o desafio e o que o site resolveu.</p>
+              <ul class="tags" aria-label="Etiquetas" data-i18n-attr="aria-label:projects.tagsLabel">
+                <li class="tag" data-i18n="tags.design">Design</li>
+                <li class="tag" data-i18n="tags.dev">Desenvolvimento</li>
+                <li class="tag tag-green" data-i18n="tags.responsive">Responsivo</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project" data-reveal style="--d:1">
+            <div class="project-media">
+              <img src="assets/img/projeto-02.png" width="1200" height="900" loading="lazy" alt="Imagem provisória do Projeto 02" data-i18n-attr="alt:projects.p2.alt">
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span>02</span><span data-i18n="projects.p2.kind">Landing page</span></p>
+              <h3 class="card-title" data-i18n="projects.p2.title">Projeto 02</h3>
+              <p class="card-text" data-i18n="projects.p2.text">Descrição curta do projeto: para quem é, qual era o desafio e o que o site resolveu.</p>
+              <ul class="tags" aria-label="Etiquetas" data-i18n-attr="aria-label:projects.tagsLabel">
+                <li class="tag" data-i18n="tags.design">Design</li>
+                <li class="tag" data-i18n="tags.dev">Desenvolvimento</li>
+                <li class="tag tag-orange" data-i18n="tags.launch">Lançamento</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card project" data-reveal style="--d:2">
+            <div class="project-media">
+              <img src="assets/img/projeto-03.png" width="1200" height="900" loading="lazy" alt="Imagem provisória do Projeto 03" data-i18n-attr="alt:projects.p3.alt">
+            </div>
+            <div class="project-body">
+              <p class="project-meta"><span>03</span><span data-i18n="projects.p3.kind">Estudo de conceito</span></p>
+              <h3 class="card-title" data-i18n="projects.p3.title">Projeto 03</h3>
+              <p class="card-text" data-i18n="projects.p3.text">Descrição curta do projeto: para quem é, qual era o desafio e o que o site resolveu.</p>
+              <ul class="tags" aria-label="Etiquetas" data-i18n-attr="aria-label:projects.tagsLabel">
+                <li class="tag" data-i18n="tags.design">Design</li>
+                <li class="tag tag-yellow" data-i18n="tags.concept">Conceito</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMO TRABALHO ============ -->
+    <section class="section section-alt" id="processo" aria-labelledby="processo-title">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <p class="eyebrow"><span class="eyebrow-num">03</span><span data-i18n="process.eyebrow">Como trabalho</span></p>
+          <div class="section-head-main">
+            <h2 class="display section-title" id="processo-title" data-i18n-html="process.title">Pensar antes de <em>desenhar</em>.</h2>
+            <p class="section-intro" data-i18n="process.intro">Um processo curto e claro. Você sabe o que acontece em cada etapa e nunca fica sem resposta.</p>
+          </div>
+        </header>
+
+        <ol class="steps">
+          <li class="step" data-reveal style="--d:0">
+            <span class="step-num" aria-hidden="true">01</span>
+            <h3 class="card-title" data-i18n="process.s1.title">Conversa</h3>
+            <p class="card-text" data-i18n="process.s1.text">A gente fala sobre o seu negócio, o seu cliente e o que o site precisa resolver. Daí sai um plano e um orçamento.</p>
+          </li>
+          <li class="step" data-reveal style="--d:1">
+            <span class="step-num" aria-hidden="true">02</span>
+            <h3 class="card-title" data-i18n="process.s2.title">Design</h3>
+            <p class="card-text" data-i18n="process.s2.text">Eu desenho as telas e mostro para você antes de qualquer código. Ajustamos juntos até ficar certo.</p>
+          </li>
+          <li class="step" data-reveal style="--d:2">
+            <span class="step-num" aria-hidden="true">03</span>
+            <h3 class="card-title" data-i18n="process.s3.title">Desenvolvimento</h3>
+            <p class="card-text" data-i18n="process.s3.text">Transformo o design em um site rápido, que funciona bem no celular e no computador.</p>
+          </li>
+          <li class="step" data-reveal style="--d:3">
+            <span class="step-num" aria-hidden="true">04</span>
+            <h3 class="card-title" data-i18n="process.s4.title">No ar</h3>
+            <p class="card-text" data-i18n="process.s4.text">Publico o site, confiro cada detalhe e mostro como tudo funciona. Depois disso, sigo por perto.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section class="section contact" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-num">04</span><span data-i18n="contact.eyebrow">Contato</span></p>
+            <h2 class="display contact-title" id="contato-title" data-i18n-html="contact.title">Vamos <em>conversar</em>?</h2>
+            <p class="lead" data-i18n="contact.text">Me conta o que você tem em mente, mesmo que a ideia ainda esteja crua. A conversa é sem compromisso.</p>
+            <div class="actions">
+              <a class="btn btn-primary btn-xl" href="#contato" data-wa="default" data-magnetic>
+                <span class="btn-label">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18.5V7a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H8.5L4 20.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 10.5h6M9 13.5h3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                  <span data-i18n="cta.whatsapp">Chamar no WhatsApp</span>
+                </span>
+              </a>
+            </div>
+            <p class="contact-or" data-i18n="contact.or">Ou preencha o formulário: a mensagem chega pronta no WhatsApp.</p>
+          </div>
+
+          <form class="card form" data-reveal style="--d:1" data-wa-form novalidate>
+            <div class="field">
+              <label for="f-nome" data-i18n="form.name">Seu nome</label>
+              <input id="f-nome" name="nome" type="text" autocomplete="name" required aria-describedby="f-nome-erro" placeholder="Como posso te chamar?" data-i18n-attr="placeholder:form.namePh">
+              <p class="field-error" id="f-nome-erro" data-error-for="nome" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-whats"><span data-i18n="form.whatsapp">Seu WhatsApp</span> <span class="optional" data-i18n="form.optional">(opcional)</span></label>
+              <input id="f-whats" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" aria-describedby="f-whats-erro" placeholder="(00) 00000-0000" data-i18n-attr="placeholder:form.whatsappPh">
+              <p class="field-error" id="f-whats-erro" data-error-for="whatsapp" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-msg" data-i18n="form.message">Sua mensagem</label>
+              <textarea id="f-msg" name="mensagem" rows="5" required aria-describedby="f-msg-erro" placeholder="Quero um site para…" data-i18n-attr="placeholder:form.messagePh"></textarea>
+              <p class="field-error" id="f-msg-erro" data-error-for="mensagem" hidden></p>
+            </div>
+            <button class="btn btn-primary btn-lg btn-block" type="submit" data-magnetic>
+              <span class="btn-label" data-i18n="form.submit">Enviar pelo WhatsApp</span>
+            </button>
+            <p class="form-note" data-i18n="form.note">O formulário só abre o WhatsApp com a sua mensagem. Nada fica salvo aqui.</p>
+            <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ RODAPÉ ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/icone-e.svg" alt="" width="44" height="44">
+        <p data-i18n="footer.credit">Feito por Enzo Morais · 2026</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#contato" data-wa="default" data-i18n="footer.whatsapp">WhatsApp</a></li>
+        <!-- Instagram: quando existir, troque o <span> por <a href="https://instagram.com/SEU_USUARIO">Instagram</a> -->
+        <li><span class="footer-soon"><span>Instagram</span> <span class="tag" data-i18n="footer.soon">em breve</span></span></li>
+        <li><a href="#inicio" data-i18n="footer.top">Voltar ao topo</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

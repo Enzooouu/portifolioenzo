@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Enzo · Web designer and developer",
+    "description": "I design and build websites that make the right impression and get clients messaging you on WhatsApp. Business websites, landing pages and maintenance."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "label": "Main",
+    "homeLabel": "Enzo, back to top",
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "langLabel": "Switch language to Portuguese",
+    "menu": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "cta": {
+    "whatsapp": "Message me on WhatsApp",
+    "projects": "See projects"
+  },
+  "hero": {
+    "badge": "Booking now",
+    "title": "Your website is your first <em>handshake</em>.",
+    "subtitle": "I design and build websites that make the right impression and get clients messaging you on WhatsApp.",
+    "note": "Design and code by the same person, from first sketch to launch.",
+    "artPiece": "loose piece · 18°"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Three ways to <em>start</em>.",
+    "intro": "Every project starts with understanding your business. The format comes later.",
+    "popular": "Most requested",
+    "s1": {
+      "title": "Business websites",
+      "text": "Your brand's official address: who you are, what you offer and how to reach you. Several pages, organized so clients find what they're looking for.",
+      "i1": "Designed from scratch",
+      "i2": "Works great on mobile",
+      "i3": "WhatsApp one tap away",
+      "i4": "Built ready for Google"
+    },
+    "s2": {
+      "title": "Landing pages",
+      "text": "One page, one goal: get the visitor to act. Great for launching a product, a service or a campaign.",
+      "i1": "Copy and flow built to convert",
+      "i2": "Loads fast",
+      "i3": "One clear call to WhatsApp"
+    },
+    "s3": {
+      "title": "Maintenance",
+      "text": "Already have a website, but it's stale, slow or out of date? I fix it, tune it and keep everything running.",
+      "i1": "Text and image updates",
+      "i2": "Fixes and improvements",
+      "i3": "Mobile adjustments"
+    }
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Things I've <em>built</em>.",
+    "intro": "A sample of how I think and how I build.",
+    "tagsLabel": "Tags",
+    "p1": {
+      "kind": "Business website",
+      "title": "Project 01",
+      "text": "Short project description: who it's for, what the challenge was and what the website solved.",
+      "alt": "Placeholder image for Project 01"
+    },
+    "p2": {
+      "kind": "Landing page",
+      "title": "Project 02",
+      "text": "Short project description: who it's for, what the challenge was and what the website solved.",
+      "alt": "Placeholder image for Project 02"
+    },
+    "p3": {
+      "kind": "Concept study",
+      "title": "Project 03",
+      "text": "Short project description: who it's for, what the challenge was and what the website solved.",
+      "alt": "Placeholder image for Project 03"
+    }
+  },
+  "tags": {
+    "design": "Design",
+    "dev": "Development",
+    "responsive": "Responsive",
+    "launch": "Launch",
+    "concept": "Concept"
+  },
+  "process": {
+    "eyebrow": "How I work",
+    "title": "Think before you <em>design</em>.",
+    "intro": "A short, clear process. You know what happens at every step and you're never left waiting for an answer.",
+    "s1": {
+      "title": "Talk",
+      "text": "We talk about your business, your clients and what the website needs to solve. That turns into a plan and a quote."
+    },
+    "s2": {
+      "title": "Design",
+      "text": "I design the screens and show them to you before any code. We adjust together until it's right."
+    },
+    "s3": {
+      "title": "Development",
+      "text": "I turn the design into a fast website that works well on phones and computers."
+    },
+    "s4": {
+      "title": "Live",
+      "text": "I publish the website, check every detail and show you how everything works. After that, I'm still around."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's <em>talk</em>?",
+    "text": "Tell me what you have in mind, even if the idea is still rough. No strings attached.",
+    "or": "Or fill in the form: your message arrives ready to send on WhatsApp."
+  },
+  "form": {
+    "name": "Your name",
+    "namePh": "What should I call you?",
+    "whatsapp": "Your WhatsApp",
+    "whatsappPh": "+1 000 000 0000",
+    "optional": "(optional)",
+    "message": "Your message",
+    "messagePh": "I need a website for…",
+    "submit": "Send via WhatsApp",
+    "note": "The form only opens WhatsApp with your message. Nothing is stored here.",
+    "sent": "WhatsApp is open with your message. Just tap send.",
+    "errors": {
+      "name": "Please enter your name.",
+      "whatsapp": "Check the number: include the area code.",
+      "message": "Please write your message.",
+      "summary": "Something's missing. Check the highlighted fields."
+    }
+  },
+  "wa": {
+    "default": "Hi Enzo! I saw your website and I'd like to talk about a project.",
+    "quote": "Hi Enzo! I'd like a quote for a website.",
+    "form": "Hi Enzo! I'm {nome}.\n\n{mensagem}",
+    "formPhone": "\n\nMy WhatsApp: {whatsapp}"
+  },
+  "footer": {
+    "credit": "Made by Enzo Morais · 2026",
+    "whatsapp": "WhatsApp",
+    "soon": "coming soon",
+    "top": "Back to top"
+  }
+}

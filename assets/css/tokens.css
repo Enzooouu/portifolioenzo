@@ -1,0 +1,43 @@
+/* Marca Enzo: tokens de cor e tipografia (copiados de brand/tokens.css).
+   As fontes são carregadas no <head> do index.html, não por @import. */
+
+
+:root {
+  /* neutros (0 = mais claro, 9 = mais escuro) */
+  --n0: #FFFFFF; --n1: #F7F8FA; --n2: #EFF1F4; --n3: #E2E5EB; --n4: #CBD0D9;
+  --n5: #9BA2AF; --n6: #6C7385; --n7: #4B5263; --n8: #2C3140; --n9: #141823;
+
+  /* principal: azul elétrico */
+  --p0: #F0F4FF; --p1: #DEE6FF; --p2: #BCCBFF; --p3: #8FA8FF; --p4: #5F80FF;
+  --p5: #2F5BFF; --p6: #2447D9; --p7: #1C37A8; --p8: #162A7A; --p9: #0F1C50;
+
+  /* logo */
+  --logo: #FF5A2A;
+
+  /* apoio: só etiquetas pequenas e detalhes (forte / fundo / texto) */
+  --laranja: #FF5A2A; --laranja-t: #FFEDE6; --laranja-d: #A83510;
+  --amarelo: #FFC21A; --amarelo-t: #FFF6D9; --amarelo-d: #7A5900;
+  --verde:   #0E8A78; --verde-t:   #E0F3F0; --verde-d:   #085A4E;
+
+  /* avisos: só mensagens do sistema */
+  --ok:   #18A058; --ok-t:   #E3F6EB; --ok-d:   #0D6B3A;
+  --warn: #F59E0B; --warn-t: #FFF3DB; --warn-d: #8A5300;
+  --err:  #E5484D; --err-t:  #FDECEC; --err-d:  #A8262B;
+
+  /* papéis */
+  --bg: var(--n0);
+  --bg-alt: var(--n1);
+  --border: var(--n3);
+  --text: var(--n9);
+  --text-muted: var(--n6);
+  --btn: var(--p6);
+  --btn-hover: var(--p7);
+  --link: var(--p6);
+  --highlight: var(--p5);
+  --focus-ring: var(--p1);
+
+  /* tipografia */
+  --font-display: "Unbounded", system-ui, sans-serif;   /* 500, tracking -0.04em, nunca < 18px */
+  --font-accent: "Newsreader", Georgia, serif;          /* itálico 400, uma palavra por título */
+  --font-body: "Manrope", system-ui, sans-serif;        /* 400–700 */
+}
